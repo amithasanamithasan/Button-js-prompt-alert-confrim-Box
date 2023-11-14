@@ -15,3 +15,13 @@ const seriousStudent=()=>{
 
 }
 
+const getname=()=>{
+  const Name=  prompt('what is your name?');
+
+  if(Name===false){
+    alert('yes you have done')
+  }
+  else{
+    alert('no input');
+  }
+}
